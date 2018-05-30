@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>web navigation with html snippets</title>
+    <meta name="description" content="a website setup to show off how to create a multipage website using an html-include for navigation">
+    <!-- this loads the external styles -->
+    <link rel="stylesheet" href="main.css">
+    <!-- this loads the javascript needed to use the html-include content -->
+    <script src="navigation.js"></script>
+		<link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+    <!-- this is the snippet you use to load the navigation from a separate html file -->
+    <nav w3-include-html="navigation.html"></nav>
+
+    <section>
+        <h1>this is page three</h1>
+        <div id="change1"> transition one</div>
+		<div id="change2"> code 2 </div>
+	    <p id="change 3"> EiON IS OUR SAVIOR </p>
+		<div id="change 4"> code 4</div>
+		<img src= "../ELON.jpg" />
+		<div class="wrap">  <div class="container">    <h1>300ms</p>    <div class="box1 box"></div>  </div>   <div class="container">    <h1>1s</p>    <div class="box2 box"></div>  </div>   <div class="container">    <h1>3s</p>    <div class="box3 box"></div>  </div></div>
+
+		<div class='square'></div>
+
+	</section>
+GettyImages-647726438.jpg
+    <!-- this bit of code is needed at the end of your body section to load the html-include content -->
+    <script>
+        includeHTML();
+
+    </script>
+</body>
+
+</html>

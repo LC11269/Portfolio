@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 { text-align: center;
+     }
+#class { background: #081FCD;
+		 margin-left: auto;
+margin-right: auto;
+margin-top: -22px;
+	}
+
+#BEAR { text-align: center;
+background: #14A8D8;
+width-right: 80px;
+margin-left: auto;
+margin-right: auto;
+margin-top: -22px;
+					}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav ul {float:left; margin-left: 15px; display: block; background:#E74D19;
+}
+
+
+
+#class2 { background: #CB040A;
+          text-align: center;}
+
+#class3 { background: #150DD6;
+		  text-align: center;
+}
+
+#class4 { background: #DB01AF;
+          text-align: center;
+} 
+
+#class5 { background: #2766C2;
+		  text-align: center;
+}
+
+#p { text-align: center;}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}

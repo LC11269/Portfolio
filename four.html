@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>web navigation with html snippets</title>
+    <meta name="description" content="a website setup to show off how to create a multipage website using an html-include for navigation">
+    <!-- this loads the external styles -->
+    <link rel="stylesheet" href="main.css">
+    <!-- this loads the javascript needed to use the html-include content -->
+    <script src="navigation.js"></script>
+		<link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+    <!-- this is the snippet you use to load the navigation from a separate html file -->
+    <nav w3-include-html="navigation.html"></nav>
+
+    <section>
+        <h1>Are Your Grandparents Sexually Active?</h1>
+		<p> More than 6,000 men and women between the ages of 50 and 90 were surveyed about their sexual activities, what were the results?</p>
+ <table>
+  <tr>
+    <th>70s</th>
+    <th>80s</th>
+  </tr>
+  <tr>
+    <td>33%-Men, 36%-Women </td>
+    <td>19%-Men, 32%-Women</td>
+  </tr>
+</table>
+		<a href= https://www.womenshealthmag.com/sex-and-love/a19895971/how-much-sex-old-people-have/> <img src= "../old.jpg" /> </a>
+		<p> Click to learn!*</p>
+	<h2> Now Lets Talk About Old People and STDs!!</h2>
+	<p> What are the facts?</p>
+		
+    </section>
+
+    <!-- this bit of code is needed at the end of your body section to load the html-include content -->
+    <script>
+        includeHTML();
+
+    </script>
+</body>
+
+</html>
