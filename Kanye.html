@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Kanye West 2020</title>
+    <meta name="description" content="a website setup to show off how to create a multipage website using an html-include for navigation">
+    <!-- this loads the external styles -->
+  <link rel="stylesheet" href="main2.css">
+    <!-- this loads the javascript needed to use the html-include content -->
+    <script src="WEST.js"></script>	
+		<link rel="shortcut icon" href="favicon-2.ico" />
+</head>
+
+<body>	
+<div id= "class">	
+<h1> Kanye West 2020 </h1>
+	</div>
+ <nav w3-include-html="WEST.html"></nav>
+
+<div id="class2"> 
+<img src="../4prez.jpg" />
+</div>
+
+<div id="class3"> 
+<a href= https://www.youtube.com/watch?v=UJs9vhMV4g4/> <img src="../KANYEVMA.jpg"/> </a>
+</div>
+<p id="p"> The moment that started it all.</p>
+	
+<audio controls autoplay> 
+<source src= "../Lift Yourself.mp3" type="audio/mp3" 
+	</audio>
+	
+<script>
+        includeHTML();
+
+    </script>
+</body>
+</html>
